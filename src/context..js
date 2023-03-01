@@ -1,7 +1,7 @@
 import React, {useState, useContext, useEffect} from 'react';
 import { useCallback } from 'react';
 const URL = "http://openlibrary.org/search.json?title=";
-const apiKey="AIzaSyBB4xyqI0kP7P5nz_c3s0kol4AjcZYbQ8E";
+const apiKey="xxxxxxxxxx";
 const AppContext = React.createContext();
 
 const AppProvider = ({children}) => {
@@ -22,7 +22,7 @@ const AppProvider = ({children}) => {
                     const {key, author_name, cover_i, edition_count, first_publish_year, title} = bookSingle;
 
                     return {
-                        id: 'AIzaSyBB4xyqI0kP7P5nz_c3s0kol4AjcZYbQ8E',
+                        id: 'xxxxxxx',
                         author: author_name,
                         cover_id: cover_i,
                         edition_count: edition_count,
